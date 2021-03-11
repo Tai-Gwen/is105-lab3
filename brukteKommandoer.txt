@@ -1,0 +1,68 @@
+    1  cmake
+    2  sudo apt install cmake
+    3  MINGW64apt-get update
+    4  --fix-missing
+    5  sudo apt install cmake
+    6  sudo apt install make
+    7  sudo apt install gcc
+    8  sudo apt install clang
+    9  gcc --version
+   10  sudo apt install gcc
+   11  .git status
+   12  sudo apt install git
+   13  git --version
+   14  git clone https://github.com/Tai-Gwen/is105-lab3
+   15  pwd
+   16  cd downloads
+   17  sudo apt update
+   18  gcc -v
+   19  sudo apt install gcc
+   20  nasm -v
+   21  sudo apt instal nasm
+   22  sudo apt install nasm
+   23  java -v
+   24  sudo apt install default-jdk
+   25  git status
+   26  ls
+   27  rm -r is105-lab3/
+   28  cd
+   29  cd is105-lab3/
+   30  ls -la
+   31  pwd
+   32  cd ..
+   33  pwd
+   34  rm -rf is105-lab3/
+   35  ls
+   36  ls -la
+   37  mkdir
+   38  mkdir testMappe
+   39  ls
+   40  cd testMappe
+   41  git init
+   42  git clone https://github.com/Tai-Gwen/is105-lab3
+   43  ls
+   44  cd is105-lab3/
+   45  ls
+   46  nano Hello.java
+   47  fg
+   48  javac Hello.java
+   49  cat hello.java
+   50  ls
+   51  cat Hello.java
+   52  java Hello
+   53  git add .
+   54  git status
+   55  git commit -m "lagd til alle filer"
+   56  git config --global user.email "tai_gwen@hotmail.com"
+   57  git config --global user.name "Tai-Gwen"
+   58  status
+   59  git status
+   60  git commit -m "lagd til alle filer"
+   61  git push origin main
+   62  nasm -f elf64 hello.asm -o hello.o
+   63  ld hello.o -o hello
+   64  ./hello
+   65  time ./hello
+   66  time java Hello
+   67  history
+   68  history > brukteKommandoer.txt
